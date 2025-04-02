@@ -1,7 +1,7 @@
 package org.linkUps.exceptions;
 
-public class UserNotFoundException extends RuntimeException {
-    public UserNotFoundException(String message) {
+public class NoUserFoundException extends RuntimeException {
+    public NoUserFoundException(String message) {
         super(message);
     }
 }
